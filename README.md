@@ -8,18 +8,19 @@
 
 一个专为**大模型算法工程师**打造的 LaTeX 简历模板，适合求职大模型、Agent、RAG、NLP 等 AI 相关岗位。
 
+
 > **💡 如果这个模板对你有帮助，请先点击右上角的 ⭐️ Star 支持一下！你的 Star 是对我们最大的鼓励！**  
 > **🔥 推荐 Fork 本项目后进行修改，这样你可以保留自己的版本，也方便后续更新！**
 
 ## 📸 效果预览
 
 <div align="center">
-  <img src="https://youke1.picui.cn/s1/2025/11/06/690c9bdf851c9.png" alt="无头像简历效果展示" width="800"/>
+  <img src="https://raw.githubusercontent.com/adongwanai/Awesome-Awesome-LLMs/main/20251216164749707.png" alt="无头像简历效果展示" width="800"/>
   <p><i>简历模板效果展示</i></p>
 </div>
 
 <div align="center">
-  <img src="https://youke1.picui.cn/s1/2025/11/18/691c25dea839e.png" alt="头像简历效果展示" width="800"/>
+  <img src="https://raw.githubusercontent.com/adongwanai/Awesome-Awesome-LLMs/main/20251216164719815.png" alt="头像简历效果展示" width="800"/>
   <p><i>简历模板有头像效果展示</i></p>
 </div>
 
