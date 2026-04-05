@@ -1,13 +1,27 @@
-# LLM-Resume-Template
+# 🙏 致谢
+
+本页面基于 [阿东玩AI](https://github.com/adongwanai) 的 [LLM-Resume-Template](https://github.com/adongwanai/LLM-Resume-Template) 修改而来。原项目采用 CC BY 4.0 许可证 进行授权。
+
+本页面基于 [Tao Jiang](https://github.com/hijiangtao) 的 [resume](https://github.com/hijiangtao/resume) 修改而来。原项目采用 MIT License 许可证 进行授权。请注意，原模板中包含的特定字体不适用此许可证。
+
+感谢原作者们的优秀工作！
+
+作者基于个人审美与爱好进行了深度优化和内容重构。
+
+# 更新
+
+
+- 2026.04.05
+
+  [初始化] Fork 原项目，并在 README 中完善对原作者的致谢。
+
+  [模板调整] 删除了“个人总结”部分，微调了一些内容并更新README。
 
 # 大模型算法工程师简历模板 | LLM Algorithm Engineer Resume Template
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![LaTeX](https://img.shields.io/badge/LaTeX-Template-green.svg)](https://www.latex-project.org/)
-[![GitHub stars](https://img.shields.io/github/stars/adongwanai/LLM-Resume-Template?style=social)](https://github.com/adongwanai/LLM-Resume-Template)
-
-一个专为**大模型算法工程师**打造的 LaTeX 简历模板，适合求职大模型、Agent、RAG、NLP 等 AI 相关岗位。
-
+[![GitHub stars](https://img.shields.io/github/stars/zihan12ai/Resume-Template?style=social)](https://github.com/zihan12ai/Resume-Template)
 
 > **💡 如果这个模板对你有帮助，请先点击右上角的 ⭐️ Star 支持一下！你的 Star 是对我们最大的鼓励！**  
 > **🔥 推荐 Fork 本项目后进行修改，这样你可以保留自己的版本，也方便后续更新！**
@@ -56,7 +70,7 @@ LLM-Resume-Template/
 
 ## 🚀 快速开始
 
-### 方法一：使用 Overleaf（推荐，无需配置环境）
+### 使用 Overleaf（强烈推荐，无需配置环境）
 
 #### 步骤 0: Star 和 Fork 项目（重要！）
 
@@ -83,7 +97,7 @@ LLM-Resume-Template/
 2. 在 **Main document** 下拉菜单中选择：
    - **带头像版**：选择 `resume-photo.tex`（推荐）
    - **无头像版**：选择 `resume-zh.tex` 或 `resume-model.tex`
-3. 确保编译器设置为 **XeLaTeX**
+3. 【重点】确保编译器设置为 **XeLaTeX**：点击左上角`文件 -> 设置 -> 编译器`，选择`XeLaTeX`
 4. 点击 **Recompile** 即可预览 PDF
 
 #### 步骤 4: 替换头像（如使用带头像版）
@@ -100,60 +114,6 @@ LLM-Resume-Template/
 
 直接在 Overleaf 编辑器中修改对应的 `.tex` 文件，保存后会自动重新编译并更新 PDF 预览。
 
----
-
-### 方法二：使用 Cursor/VSCode + AI 辅助修改（效率更高）
-
-如果你想用 AI 快速批量修改简历内容，推荐使用 Cursor 编辑器。
-
-#### 步骤 1: Fork 并克隆项目（推荐）
-
-**强烈推荐先 Fork 项目！**
-
-1. 在 GitHub 上点击 **Star** ⭐️ 和 **Fork** 按钮
-2. 克隆你 fork 的仓库：
-
-```bash
-# 替换 YOUR_USERNAME 为你的 GitHub 用户名
-git clone https://github.com/YOUR_USERNAME/LLM-Resume-Template.git
-cd LLM-Resume-Template
-```
-
-> 💡 **为什么要 Fork？** Fork 后可以自由提交你的修改，保留个人版本，同时不影响原项目。
-
-#### 步骤 2: 用 Cursor 打开项目
-
-1. 下载并安装 [Cursor](https://cursor.sh/)
-2. 用 Cursor 打开项目文件夹
-3. 打开 `resume-photo.tex`（带头像版）或 `resume-model.tex`（无头像版）文件
-
-#### 步骤 3: 使用 AI 提示词快速修改
-
-选中需要修改的部分，按 `Cmd+K`（Mac）或 `Ctrl+K`（Windows）唤起 Cursor AI，输入提示词进行修改。
-
-**提示词示例见下方 [AI 提示词参考](#-ai-提示词参考) 部分。**
-
-#### 步骤 4: 同步到 Overleaf
-
-修改完成后，将项目文件夹打包成 ZIP，重新上传到 Overleaf 进行编译和预览。
-
----
-
-### 方法三：本地编译（需要 LaTeX 环境）
-
-如果你已安装 TeX Live 或 MacTeX，可以在本地编译：
-
-```bash
-# 编译带头像版简历（推荐）
-xelatex resume-photo.tex
-xelatex resume-photo.tex  # 编译两次以生成正确的目录和引用
-
-# 编译无头像版简历
-make zh
-# 或
-xelatex resume-zh.tex
-xelatex resume-zh.tex
-```
 
 ## 📝 使用指南
 
@@ -338,16 +298,10 @@ xelatex resume-zh.tex
 - 顶会论文 > 竞赛奖项 > 奖学金
 - 注明具体排名（如 Top 1%、金牌）和参与人数
 
-## 🎯 求职方向适配
+## 🚧 TODO (未来计划)
 
-本模板适合以下求职方向：
+- [ ] 尝试增加 Prism 平台进行自动化编译
 
-- 🤖 **大模型算法工程师**：LLM 训练、微调、对齐
-- 🧠 **Agent 算法研究员**：强化学习、多智能体系统
-- 📚 **RAG 算法工程师**：检索增强、知识库构建
-- ⚡ **模型推理优化工程师**：量化、蒸馏、部署加速
-- 🔬 **NLP 算法研究员**：文本生成、信息抽取、对话系统
-- 🎨 **多模态算法工程师**：视觉-语言模型、VLM
 
 ## 🤝 贡献
 
@@ -357,8 +311,8 @@ xelatex resume-zh.tex
 
 ## 📮 联系方式
 
-- GitHub: [@adongwanai](https://github.com/adongwanai)
-- 项目地址: [LLM-Resume-Template](https://github.com/adongwanai/LLM-Resume-Template)
+- GitHub: [@zihan12ai](https://github.com/zihan12ai)
+- 项目地址: [Resume-Template](https://github.com/zihan12ai/Resume-Template)
 
 ## 📜 许可证
 
@@ -371,15 +325,9 @@ xelatex resume-zh.tex
 
 唯一要求：**署名** — 你必须给出适当的署名，提供指向本许可的链接，同时说明是否有做修改。
 
-## 🙏 致谢
-
-本模板基于 [resume](https://github.com/liweitianux/resume) 项目修改，感谢原作者的优秀工作！
-
-针对大模型算法工程师求职场景进行了深度优化和内容重构。
 
 ---
 
 **祝你求职顺利，拿到心仪的 Offer！🎉**
 
 如有问题，欢迎提 Issue 或加入讨论！
-
