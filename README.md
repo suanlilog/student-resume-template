@@ -29,15 +29,9 @@
 ## 📸 效果预览
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adongwanai/Awesome-Awesome-LLMs/main/20251216164749707.png" alt="无头像简历效果展示" width="800"/>
-  <p><i>简历模板效果展示</i></p>
-</div>
-
-<div align="center">
   <img src="https://raw.githubusercontent.com/adongwanai/Awesome-Awesome-LLMs/main/20251216164719815.png" alt="头像简历效果展示" width="800"/>
   <p><i>简历模板有头像效果展示</i></p>
 </div>
-
 
 ## ✨ 特性
 
@@ -51,14 +45,10 @@
 ## 📁 文件说明
 
 ```
-LLM-Resume-Template/
-├── resume-zh.tex          # 中文简历（完整示例，无头像）
+Resume-Template/
 ├── resume-photo.tex       # 带头像简历（推荐使用）⭐️
-├── resume-model.tex       # 简历模板（含占位符）
-├── resume-en.tex          # 英文简历模板
-├── resume.cls             # 标准简历样式文件
 ├── resume-photo.cls       # 带头像支持的样式文件 ⭐️
-├── adongwanai.jpg         # 示例头像图片
+├── suanligongfang.jpg         # 示例头像图片
 ├── Makefile               # 编译脚本
 ├── fontawesome5/          # 图标字体文件
 └── README.md              # 本文件
