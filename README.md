@@ -17,11 +17,11 @@
 
   [模板调整] 删除了“个人总结”部分，微调了一些内容并更新README。
 
-# 大模型算法工程师简历模板 | LLM Algorithm Engineer Resume Template
+# 适用于各专业学生的简历模板 | Professional LaTeX resume template for students of various majors
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![LaTeX](https://img.shields.io/badge/LaTeX-Template-green.svg)](https://www.latex-project.org/)
-[![GitHub stars](https://img.shields.io/github/stars/zihan12ai/Resume-Template?style=social)](https://github.com/zihan12ai/Resume-Template)
+[![GitHub stars](https://img.shields.io/github/stars/suanlilog/student-resume-template)](https://github.com/suanlilog/student-resume-template)
 
 > **💡 如果这个模板对你有帮助，请先点击右上角的 ⭐️ Star 支持一下！你的 Star 是对我们最大的鼓励！**  
 > **🔥 推荐 Fork 本项目后进行修改，这样你可以保留自己的版本，也方便后续更新！**
@@ -29,7 +29,7 @@
 ## 📸 效果预览
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adongwanai/Awesome-Awesome-LLMs/main/20251216164719815.png" alt="头像简历效果展示" width="800"/>
+  <img src="https://obsidian-hexo-blog-1357454370.cos.ap-beijing.myqcloud.com/hexo/%E7%A4%BA%E4%BE%8BPDF_pages-to-jpg-0001.jpg" alt="头像简历效果展示" width="800"/>
   <p><i>简历模板有头像效果展示</i></p>
 </div>
 
@@ -37,26 +37,21 @@
 
 - 📸 **支持头像**：提供带头像版本，让简历更加个性化和专业（可选）
 - 📝 **专业内容结构**：涵盖科研经历、实习经历、项目经历等完整板块
-- 🎯 **大模型方向优化**：针对 LLM、Agent、RAG、模型压缩等热门方向设计
 - 🔧 **易于修改**：提供完整的占位符模板，方便快速替换个人信息
-- 🎨 **排版精美**：基于优秀的 LaTeX 简历模板，支持中英文
+- 🎨 **排版精美**：基于优秀的 LaTeX 简历模板
 - 🚀 **一键编译**：支持 Overleaf 在线编辑，无需本地配置环境
 
 ## 📁 文件说明
 
 ```
 Resume-Template/
-├── resume-photo.tex       # 带头像简历（推荐使用）⭐️
+├── resume-photo.tex       # 带头像简历⭐️
 ├── resume-photo.cls       # 带头像支持的样式文件 ⭐️
 ├── suanligongfang.jpg         # 示例头像图片
 ├── Makefile               # 编译脚本
 ├── fontawesome5/          # 图标字体文件
 └── README.md              # 本文件
 ```
-
-**推荐使用 `resume-photo.tex`**：这是带头像版本的简历模板，更加现代美观，适合需要展示个人形象的场合。
-
-**可选使用 `resume-zh.tex` 或 `resume-model.tex`**：标准版简历（无头像），适合更正式的学术或企业场合。
 
 ## 🚀 快速开始
 
@@ -81,16 +76,12 @@ Resume-Template/
 3. 上传刚才下载的 ZIP 文件
 4. 等待项目导入完成
 
-#### 步骤 3: 设置主文件
+#### 步骤 3: 设置编译器【重点】
 
-1. 在 Overleaf 项目中，点击左上角的 **Menu** 按钮
-2. 在 **Main document** 下拉菜单中选择：
-   - **带头像版**：选择 `resume-photo.tex`（推荐）
-   - **无头像版**：选择 `resume-zh.tex` 或 `resume-model.tex`
-3. 【重点】确保编译器设置为 **XeLaTeX**：点击左上角`文件 -> 设置 -> 编译器`，选择`XeLaTeX`
-4. 点击 **Recompile** 即可预览 PDF
+1. 【重点】确保编译器设置为 **XeLaTeX**：点击左上角`文件 -> 设置 -> 编译器`，选择`XeLaTeX`
+2. 点击 **Recompile** 即可预览 PDF
 
-#### 步骤 4: 替换头像（如使用带头像版）
+#### 步骤 4: 替换头像
 
 1. 准备一张正方形或圆形的照片（推荐尺寸 500×500 像素以上）
 2. 在 Overleaf 左侧文件列表中，点击上传图标上传你的照片
@@ -105,47 +96,29 @@ Resume-Template/
 直接在 Overleaf 编辑器中修改对应的 `.tex` 文件，保存后会自动重新编译并更新 PDF 预览。
 
 
-## 📝 使用指南
+## 📝 编辑教程
 
 ### 1. 修改个人信息
 
-#### 带头像版（`resume-photo.tex`）
-
 ```latex
-\ResumeName{阿东玩AI}  % 修改为你的姓名
-\ResumePhoto{adongwanai.jpg}  % 修改为你的头像文件名，或删除这行不使用头像
+\ResumeName{算栗工坊} % 修改为你的姓名
+\ResumePhoto{suanligongfang.png} % 修改为你的头像文件名，或删除这行不使用头像
 
 \begin{document}
 
 \ResumeContacts{
-  1XX-XXXX-XXXX,%
-  \ResumeUrl{mailto:adong@tsinghua.edu.cn}{adong@tsinghua.edu.cn},%
-  \textnormal{清华大学 | 计算机科学与技术 · 硕士 | 20XX-XX}%
+  138-XXXX-XXXX,%
+  \ResumeUrl{mailto:lzihan1226@163.com}{lzihan1226@163.com},
+  %
+  \ResumeUrl{https://www.suanlilog.com/}{suanlilog.com}%或者写个人主页https://xxxx.github.io/，没有主页就注释这一行。
+  %前面括号写真实链接，后面括号可以写简称
+  %
 }
 ```
 
-#### 无头像版（`resume-zh.tex` 或 `resume-model.tex`）
+### 2. 替换其他内容
 
-```latex
-\name{玩AI}{阿东}  % 修改为你的姓名（姓 名）
-
-\keywords{大模型, 算法工程师, 模型压缩, 模型微调, PyTorch, DeepSpeed}
-
-\profile{
-  \mobile{138-0000-0000}              % 手机号
-  \email{adong@tsinghua.edu.cn}       % 邮箱
-  \university{清华大学}                % 学校
-  \degree{计算机科学与技术 \textbullet 硕士}  % 专业和学位
-  \birthday{1998-06}                  % 生日
-}
-```
-
-### 2. 替换经历内容
-
-模板中使用 `XXXX` 和 `XX` 作为占位符，你可以：
-
-- **手动替换**：直接搜索 `XXXX` 并替换为你的实际内容
-- **使用 AI 辅助**：参考下方的提示词示例，让 AI 帮你快速填充
+在overleaf网页右边编译出来的PDF文件中，双击你想要修改的地方，左边会自动跳转到对应源代码处，删除模板内容并修改为你的信息即可。
 
 ### 3. 调整板块顺序
 
@@ -153,7 +126,7 @@ Resume-Template/
 
 ### 4. 添加/删除板块
 
-如果某个板块不需要，直接删除对应的 `\sectionTitle` 和 `\begin{...} \end{...}` 部分即可。
+如果某个板块不需要，直接删除/注释对应的 `\sectionTitle` 和 `\begin{...} \end{...}` 部分即可。
 
 ## 🤖 AI 提示词参考
 
@@ -301,8 +274,8 @@ Resume-Template/
 
 ## 📮 联系方式
 
-- GitHub: [@zihan12ai](https://github.com/zihan12ai)
-- 项目地址: [Resume-Template](https://github.com/zihan12ai/Resume-Template)
+- GitHub: [@zihan12ai](https://github.com/zihan12ai), [@算栗工坊](https://github.com/suanlilog)
+- 项目地址: [student-resume-template](https://github.com/suanlilog/student-resume-template)
 
 ## 📜 许可证
 
